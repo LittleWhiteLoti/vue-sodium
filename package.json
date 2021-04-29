@@ -1,0 +1,31 @@
+{
+  "name": "@littlewhiteloti/vue-sodium",
+  "version": "0.0.1",
+  "description": "Sodium-plus ported to vuejs",
+  "main": "vue-sodium.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LittleWhiteLoti/vue-sodium.git"
+  },
+  "keywords": [
+    "Vue-Sodium",
+    "vue-sodium",
+    "Vue_Sodium",
+    "vue_sodium",
+    "Vue-Crypto",
+    "vue-crypto",
+    "Vue-Crypto",
+    "vue_crypto",
+    "Vue-Cryptography",
+    "vue-cryptography"
+  ],
+  "author": "LittleWhiteLoti <little.white.loti@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LittleWhiteLoti/vue-sodium/issues"
+  },
+  "homepage": "https://github.com/LittleWhiteLoti/vue-sodium#readme"
+}
