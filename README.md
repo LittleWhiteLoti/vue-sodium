@@ -5,8 +5,10 @@
 Libsodium is a portable, cross-compilable, installable, packageable, API-compatible version of NaCl that was started in 2008 (Stable: 2011)
 sodium-native is a library that contains low-level bindings to C code.
 Github: https://github.com/sodium-friends/sodium-native
+
 sodium-plus is a javascript wrapper for sodium-native. However because of its async nature, it does not play well with Vue.use 
 Github: https://github.com/paragonie/sodium-plus
+
 vue-sodium is a javascript implementation of sodium-plus that works with vuejs  
 Github: https://github.com/LittleWhiteLoti/vue-sodium
 
