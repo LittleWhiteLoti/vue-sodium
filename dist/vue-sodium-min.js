@@ -1,0 +1,1 @@
+export default{install:async(o,t)=>{o.prototype&&(o.prototype.$sodium=t),o.config.globalProperties&&(o.config.globalProperties.$sodium=t),o&&(o.$sodium=t)}};
