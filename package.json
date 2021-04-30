@@ -1,10 +1,18 @@
 {
   "name": "@littlewhiteloti/vue-sodium",
-  "version": "0.0.1",
-  "description": "Sodium-plus ported to vuejs",
+  "version": "0.0.2",
+  "description": "Sodium-plus wrapper for vuejs 3",
   "main": "vue-sodium.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "sodium-plus": "^0.9.0",
+    "vue": "3.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.12",
+    "@vue/cli-plugin-eslint": "~4.5.12"
   },
   "repository": {
     "type": "git",

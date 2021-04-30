@@ -9,13 +9,23 @@ Github: https://github.com/sodium-friends/sodium-native
 sodium-plus is a javascript wrapper for sodium-native. However because of its async nature, it does not play well with Vue.use 
 Github: https://github.com/paragonie/sodium-plus
 
-vue-sodium is a javascript implementation of sodium-plus that works with vuejs  
+vue-sodium is a wrapper for sodium-plus that makes it globally available in a vuejs app  
 Github: https://github.com/LittleWhiteLoti/vue-sodium
 
-## Why?
+## How to use
 
-The reason this needed to be ported to vuejs was because the async method auto() does not work with the sync method vue.use() or as a component
-locally scoped plugin. This led to calls on sodium as being undefined.
+```
+import SodiumPlus from 'sodium-plus'
+import VueSodium from '@littlewhiteloti/vue-sodium'
+
+let app = createApp(App)
+Promise.resolve(SodiumPlus.auto())
+    .then(sodium => {
+        app.use(VueSodium, sodium)
+        app.mount('#app')
+    })
+
+```
  
 ## Recommendation
 
