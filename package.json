@@ -35,7 +35,9 @@
     "Vue-Crypto",
     "vue_crypto",
     "Vue-Cryptography",
-    "vue-cryptography"
+    "Vue_Cryptography",
+    "vue-cryptography",
+    "vue_cryptography"
   ],
   "author": "LittleWhiteLoti <little.white.loti@gmail.com>",
   "license": "MIT",
