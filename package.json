@@ -1,6 +1,6 @@
 {
   "name": "@littlewhiteloti/vue-sodium",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Sodium-plus wrapper for vuejs 3",
   "main": "vue-sodium.js",
   "scripts": {
