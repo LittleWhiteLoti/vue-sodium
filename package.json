@@ -15,7 +15,8 @@
     "@vue/cli-plugin-eslint": "~4.5.12"
   },
   "files": [
-    "dist/"
+    "dist/",
+    "src/"
   ],
   "repository": {
     "type": "git",
