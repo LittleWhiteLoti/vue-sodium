@@ -1,22 +1,24 @@
 {
   "name": "@littlewhiteloti/vue-sodium",
   "version": "0.0.1",
-  "description": "Sodium-plus wrapper for vuejs 3",
+  "description": "Makes sodium-plus available to vuejs 2 & 3 instances",
   "main": "dist/vue-sodium.min.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "sodium-plus": "^0.9.0",
-    "vue": "^3.0.0"
+    "sodium-plus": "^0.9.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.12",
     "@vue/cli-plugin-eslint": "~4.5.12"
   },
+  "peerDependencies": {
+    "vue": "^2.6.11"
+  },
   "files": [
-    "dist/",
-    "src/"
+    "dist",
+    "src"
   ],
   "repository": {
     "type": "git",
