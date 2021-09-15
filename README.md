@@ -12,6 +12,19 @@ Github: https://github.com/paragonie/sodium-plus
 vue-sodium is a wrapper for sodium-plus that makes it globally available in a vuejs app  
 Github: https://github.com/LittleWhiteLoti/vue-sodium
 
+## Important
+
+This is only a wrapper, you will still need to install sodium-plus via npm or yarn
+
+```
+npm install sodium-plus@latest --save
+
+or
+
+yarn add sodium-plus
+
+```
+
 ## How to use
 
 ```
